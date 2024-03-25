@@ -1,4 +1,4 @@
-import { NAME } from "../core/constants";
+import { NAME } from "../lib/constants";
 
 function TopBar() {
   return (
