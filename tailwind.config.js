@@ -1,9 +1,60 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./src/**/*.{html,js,css,ts,tsx,jsx}"],
+  darkMode: "selector",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'poppins': 'Poppins, sans-serif',
+        'barlow': '"Barlow Condensed", sans-serif',
+      },
+      colors: {
+        primary: {
+          100: "#d5eaea",
+          200: "#abd5d5",
+          300: "#81bfc0",
+          400: "#57aaab",
+          500: "#2d9596",
+          600: "#247778",
+          700: "#1b595a",
+          800: "#123c3c",
+          900: "#091e1e",
+        },
+        background: {
+          100: "#d4dce3",
+          200: "#a8b9c7",
+          300: "#7d96ab",
+          400: "#51738f",
+          500: "#265073",
+          600: "#1e405c",
+          700: "#173045",
+          800: "#0f202e",
+          900: "#081017",
+        },
+        accent: {
+          100: "#ebf6f3",
+          200: "#d7ece7",
+          300: "#c2e3da",
+          400: "#aed9ce",
+          500: "#9ad0c2",
+          600: "#7ba69b",
+          700: "#5c7d74",
+          800: "#3e534e",
+          900: "#1f2a27",
+        },
+        secondary: {
+          100: "#fcfef8",
+          200: "#f9fdf0",
+          300: "#f7fce9",
+          400: "#f4fbe1",
+          500: "#f1fada",
+          600: "#c1c8ae",
+          700: "#919683",
+          800: "#606457",
+          900: "#30322c",
+        },
+      },
+    },
   },
   plugins: [],
-}
-
+};
