@@ -1,1 +1,1 @@
-export const NAME = 'Justin Chinedu'
+export const NAME = 'Justin Chinedu Okorie'
