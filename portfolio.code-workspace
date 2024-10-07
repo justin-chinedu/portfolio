@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"tailwindCSS.classAttributes": [
+			"class",
+			"className",
+			"ngClass",
+			"textClassName",
+			".*Class.*"
+		]
+	},
+	
+}

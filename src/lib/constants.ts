@@ -1,1 +1,2 @@
-export const NAME = 'Justin Chinedu Okorie'
+export const NAME = 'JUSTIN CHINEDU'
+export const BIO = "I am a Pharmacist and Creative Software Developer, specializing in building mobile applications with Flutter and Kotlin, and websites using React, WordPress, and PostgreSQL.::I have a passion for design, using tools like Figma, Inkscape, Tailwind CSS, and the Adobe Suite. In my free time, I enjoy creating pencil art."

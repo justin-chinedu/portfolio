@@ -16,6 +16,7 @@ export default {
       fontFamily:{
         'poppins': 'Poppins, sans-serif',
         'barlow': '"Barlow Condensed", sans-serif',
+        'cinzel': 'Cinzel, sans-serif',
       },
       colors: {
         border: "hsl(var(--border))",
